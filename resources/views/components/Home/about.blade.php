@@ -6,16 +6,15 @@
                 <div class="flex items-center -mx-3 sm:-mx-4">
                     <div class="w-full xl:w-1/2 px-3 sm:px-4">
                         <div class="py-3 sm:py-4">
-                            <img src="{{ url('/images/kaneki1.jpg') }}" alt="" class="rounded-2xl w-full" />
+                            <img src="{{ url('/images/laravel.jpeg') }}" alt="" class="rounded-2xl w-full" />
                         </div>
                         <div class="py-3 sm:py-4">
-                            <img src="{{ url('/images/touka1.png') }}" alt="" class="rounded-2xl w-full" />
+                            <img src="{{ url('/images/react.jpg') }}" alt="" class="rounded-2xl w-full" />
                         </div>
                     </div>
                     <div class="w-full xl:w-1/2 px-3 sm:px-4">
                         <div class="my-4 relative z-10">
-                            <img src="{{ url('/images/kenkanekiTouka1.png') }}" alt=""
-                                class="rounded-2xl w-full" />
+                            <img src="{{ url('/images/APIs.png') }}" alt="" class="rounded-2xl w-full" />
                             <x-about-dots></x-about-dots>
                         </div>
                     </div>
@@ -36,10 +35,8 @@
                         2021. I seek an opportunity to apply my knowledge and skills in a full-stack development role.
                         <br /> <br />
                         I have worked on various types of projects with various technologies,
-                        but very often I feel that I want to sharp my skills further to be more productive.<br /><br />
-                        Alos i
-                        love
-                        watching anime so don't get upset of this images<br />
+                        but very often I feel that I want to sharp my skills further to be more productive.<br />
+
                     </p>
                 </div>
             </div>
