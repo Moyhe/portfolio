@@ -12,7 +12,7 @@
                     <p class="text-base mb-8 max-w-[520px]">
 
                         I am passionate about web development with more than a year of
-                        experience as a freelance full stack Laravel developer.<br />
+                        experience as a freelance full stack Laravel React Developer.<br />
 
                         <span class="rounded-md text-amber-600">laravel, PHP, react, docker, inertia ,unit test</span>
 
