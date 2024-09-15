@@ -21,52 +21,52 @@ class Portfolio extends Component
     {
         $this->items = [
             [
-                'category' => ['Laravel', 'tailwindcss'],
+                'category' => ['Laravel', 'tailwindcss', 'Docker'],
                 'title' => 'Ecommerce with Laravel, Tailwindcss, paymob payment , alpine js and docker',
-                'image' => url('/images/1.jpg'),
-                'github' => 'https://github.com/Moyhe/Laravel_Projects/tree/Blogging'
+                'image' => url('/images/ecommerce.png'),
+                'github' => 'https://github.com/Moyhe/Ecommerce_Website'
             ],
             [
-                'category' => ['PHP', "Bootstrap"],
+                'category' => ['PHP', "Docker"],
                 'title' => 'Resturant management system built wiht Bootstrap, Dokcer, MVC PHP,  Mysql',
-                'image' => url('/images/2.jpg'),
-                'github' => 'https://github.com/Moyhe/PHP_Projects/tree/ecommerce'
+                'image' => url('/images/resturant.png'),
+                'github' => 'https://github.com/Moyhe/Restaurant_Management_System'
             ],
             [
-                'category' => ['PHP', "Bootstrap"],
-                'title' => 'Content management system like wordPress built with Bootstrap 5 , php and Mysql',
-                'image' => url('/images/2.jpg'),
-                'github' => 'https://github.com/Moyhe/PHP_Projects/tree/ecommerce'
+                'category' => ['Laravel', "tailwindcss"],
+                'title' => 'Blog website built with laravel, tailwindcss, alpinejs, mysql, with comment and like systems',
+                'image' => url('/images/blog.png'),
+                'github' => 'https://github.com/Moyhe/Enhanced_Blog_Wbesite'
             ],
             [
                 'category' => ['Laravel'],
-                'title' => 'REST API with Laravel 9 and Sanctum',
-                'image' => url('/images/3.png'),
-                'github' => 'https://github.com/Moyhe/Laravel_API/tree/auth_API'
+                'title' => 'full authentication system api made with laravel and jwt',
+                'image' => url('/images/api.png'),
+                'github' => 'https://github.com/Moyhe/Auth_user_API'
             ],
             [
-                'category' => ['Laravel', 'tailwindcss'],
+                'category' => ['Laravel', 'tailwindcss', "Docker"],
                 'title' => 'Movie website with laravel, tailwindcss',
-                'image' => url('/images/3.png'),
-                'github' => 'https://github.com/Moyhe/Laravel_API/tree/auth_API'
+                'image' => url('/images/movie.png'),
+                'github' => 'https://github.com/Moyhe/Movies_App'
             ],
             [
                 'category' => ['React', "typescript"],
                 'title' => 'App Game built with react, type script, axios for fetching information',
-                'image' => url('/images/touka2.jpg'),
-                'github' => 'https://github.com/Moyhe/Front_End/tree/education'
+                'image' => url('/images/game.png'),
+                'github' => 'https://github.com/Moyhe/game-app'
             ],
             [
-                'category' => ['Laravel', 'React', "Inertia", 'tailwindcss'],
+                'category' => ['Laravel', 'React', "Inertia", 'tailwindcss', 'Docker', "typescript"],
                 'title' => 'Project Management built with laravel, inertia, tailwindcss, docker',
-                'image' => url('/images/4.jpg'),
-                'github' =>  'https://github.com/Moyhe/Laravel_Angular_Projects/tree/main'
+                'image' => url('/images/management.png'),
+                'github' =>  'https://github.com/Moyhe/project_management'
             ],
             [
-                'category' => ['Laravel', 'React', "Inertia", 'tailwindcss'],
+                'category' => ['Laravel', 'React', "Inertia", 'tailwindcss', 'Docker', "typescript"],
                 'title' => 'software as a service built laravel, inertia, tailwindcss, docker, stripe payment ',
-                'image' => url('/images/4.jpg'),
-                'github' =>  'https://github.com/Moyhe/Laravel_Angular_Projects/tree/main'
+                'image' => url('/images/software.png'),
+                'github' =>  'https://github.com/Moyhe/Software_As_A_Service'
             ],
         ];
 
