@@ -12,6 +12,8 @@
                         If you feel my experience and skills fits your needs, feel free to contact me.
                     </p>
                     <div class="flex mb-8 max-w-[370px] w-full">
+
+
                         <div
                             class="
                    max-w-[60px]
@@ -41,6 +43,41 @@
                             <p class="text-base text-body-color dark:text-gray-300">mohyemahmoud123@gmail.com</p>
                         </div>
                     </div>
+                    <div class="flex mb-8 max-w-[370px] w-full">
+
+
+                        <div
+                            class="
+                   max-w-[60px]
+                   sm:max-w-[70px]
+                   w-full
+                   h-[60px]
+                   sm:h-[70px]
+                   flex
+                   items-center
+                   justify-center
+                   mr-6
+                   overflow-hidden
+                   bg-primary bg-opacity-5
+                   text-primary
+                   dark:text-gray-300
+                   rounded
+                   ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                            </svg>
+
+
+                        </div>
+                        <div class="w-full">
+                            <h4 class="font-bold text-dark dark:text-gray-200 text-xl mb-1">
+                                phone number
+                            </h4>
+                            <p class="text-base text-body-color dark:text-gray-300">01014738140</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
@@ -54,7 +91,7 @@
                             },
                             errors: {},
                             successMessage: '',
-
+                        
                             submitForm(event) {
                                 this.successMessage = '';
                                 this.errors = {};
@@ -86,7 +123,7 @@
                                         if (response.status === 422) {
                                             this.errors = res.errors;
                                         }
-
+                        
                                     })
                             }
                         }"x-on:submit.prevent="submitForm">
