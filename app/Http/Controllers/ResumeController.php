@@ -12,11 +12,9 @@ class ResumeController extends Controller
     {
         $fileName = 'resume/' . 'Mohye_Mahmoud_Full_Stack_Laravel_React_Developer.pdf';
 
-        throw_if(
-            ! $fileName,
-            NotFoundHttpException::class,
-            'Resume Not Found'
-        );
+        if (! Storage::exists($fileName)) {
+            abort(404, 'Resume Not Found');
+        }
 
         return Storage::download($fileName);
     }
