@@ -12,7 +12,7 @@
 
     <!-- Open Graph / Portfolio -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ url('/') }}">
+    <meta property="og:url" content="https://portfolio-l0n4.onrender.com">
     <meta property="og:title" content="Mohye Mahmoud - Portfolio">
     <meta property="og:description" content="Mohye Mahmoud portfolio to show my skills and projects.">
     <meta property="og:image" content="{{ asset('images/portfolio.png') }}">
