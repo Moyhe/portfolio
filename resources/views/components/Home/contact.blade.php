@@ -12,8 +12,6 @@
                         If you feel my experience and skills fits your needs, feel free to contact me.
                     </p>
                     <div class="flex mb-8 max-w-[370px] w-full">
-
-
                         <div
                             class="
                    max-w-[60px]
