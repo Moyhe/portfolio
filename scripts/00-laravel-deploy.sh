@@ -19,6 +19,9 @@ php artisan migrate:fresh --force
 echo "seeding data"
 php artisan db:seed --force
 
+echo "change permission"
+chmod -R 775 storage/
+
 echo "storage link"
 php artisan storage:link
 
