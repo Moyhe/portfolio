@@ -1,8 +1,10 @@
-import './bootstrap';
-import '../css/app.css';
+import "./bootstrap";
+import "../css/app.css";
 
+import Alpine from "alpinejs";
+import persist from "@alpinejs/persist";
 
-import Alpine from 'alpinejs';
+Alpine.plugin(persist);
 
 window.Alpine = Alpine;
 

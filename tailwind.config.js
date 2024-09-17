@@ -8,7 +8,11 @@ export default {
         "./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
     ],
     theme: {
-        extend: {},
+        extend: {
+            width: {
+                96: "24rem",
+            },
+        },
     },
     plugins: [require("tailgrids/plugin")],
 };

@@ -3,16 +3,21 @@
     class="fixed left-0 top-0 z-50 bg-white w-full flex items-center shadow-md dark:bg-slate-900 h-20">
     <div class="container">
         <div class="flex -mx-4 items-center justify-between relative">
-            <div class="pr-4 w-60  max-w-full">
+
+            <div class="pr-4 w-60 ml-4  max-w-full">
                 <a href="/" class="w-full flex items-center py-2">
-                    <img src="{{ url('/images/programming.jpg') }}" alt="logo"
+                    <img src="{{ url('/images/geni.png') }}" alt="logo"
                         class="w-[48px] lg:w-[54px] inline-block dark:hidden" />
                     <img src="{{ url('/images/geni.png') }}" alt="logo"
                         class="w-[48px] lg:w-[64px] mr-2 hidden dark:inline-block" />
                     <span class="text-xl xl:text-2xl  font-bold text-[#0c7187] dark:text-white">Love</span>
                 </a>
             </div>
+
             <div class="flex px-4 justify-end items-center w-full">
+                <div class="dark:text-white  w-5 h-5">
+                    <x-toggle-theme />
+                </div>
                 <div>
                     <x-layout.navbar-hamburger @click="navbarOpen = !navbarOpen"
                         x-bind:class="navbarOpen && 'navbarTogglerActive'">
@@ -28,11 +33,21 @@
                                 <div class="g-ytsubscribe" data-channelid="UC_UMEcP_kF0z4E6KbxCpV1w"
                                     data-layout="default" data-count="default"></div>
                             </div>
+
                         </ul>
+
                     </nav>
+
                 </div>
+
+
             </div>
+
+
         </div>
     </div>
 </header>
+
+
+
 <!-- ====== Navbar Section End -->

@@ -6,19 +6,16 @@
                 <div class="hero-content">
                     <h1
                         class="text-dark dark:text-gray-200 font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6">
-                        My Name is Mohye Mahmoud. <br />
-                        I am <span class="rounded-md text-amber-600">full stack developer</span>.
+                        My Name is Mohye Mahmoud. I am <span class="rounded-md text-amber-600">full stack
+                            developer</span>.
                     </h1>
-                    <p class="text-base mb-8 max-w-[520px]">
+                    <p class="text-base mb-8 max-w-[520px] dark:text-white">
 
                         I am passionate about web development with more than a year of
                         experience as a freelance full stack Laravel React Developer.<br />
 
                         <span class="rounded-md text-amber-600">laravel, PHP, react, docker, inertia ,unit test</span>
 
-                        {{-- <a
-                class="text-primary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-primary"
-                href="https://youtube.com/TheCodeholic" target="_blank">YouTube Channel</a>. <br> --}}
                     </p>
                     <ul class="flex flex-wrap items-center">
                         <li>
