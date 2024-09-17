@@ -19,10 +19,10 @@
 <script>
     document.addEventListener('alpine:init', () => {
         Alpine.store('toggle', {
-            theme: Alpine.$persist('light').as('darkMode_on'),
+            theme: Alpine.$persist('dark').as('darkMode_on'),
 
             toggleTheme() {
-                this.theme = this.theme === 'light' ? 'dark' : 'light'
+                this.theme = this.theme === 'dark' ? 'light' : 'dark'
             },
 
         })

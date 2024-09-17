@@ -14,8 +14,8 @@
                 </a>
             </div>
 
-            <div class="flex px-4 justify-end items-center w-full">
-                <div class="dark:text-white  w-5 h-5">
+            <div class="flex px-4 lg:justify-end items-center w-full">
+                <div class="dark:text-white w-5 h-5">
                     <x-toggle-theme />
                 </div>
                 <div>
