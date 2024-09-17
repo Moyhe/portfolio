@@ -4,10 +4,10 @@
     <div class="container">
         <div class="flex -mx-4 items-center justify-between relative">
 
-            <div class="pr-4 w-60 ml-4  max-w-full">
-                <a href="/" class="w-full flex items-center py-2">
+            <div class="pr-4 w-60 ml-4 max-w-full">
+                <a href="{{ url('/') }}" class="w-full flex items-center py-2">
                     <img src="{{ url('/images/geni.png') }}" alt="logo"
-                        class="w-[48px] lg:w-[54px] inline-block dark:hidden" />
+                        class="w-[48px] lg:w-[64px] mr-2 inline-block dark:hidden" />
                     <img src="{{ url('/images/geni.png') }}" alt="logo"
                         class="w-[48px] lg:w-[64px] mr-2 hidden dark:inline-block" />
                     <span class="text-xl xl:text-2xl  font-bold text-[#0c7187] dark:text-white">Love</span>
@@ -39,11 +39,7 @@
                     </nav>
 
                 </div>
-
-
             </div>
-
-
         </div>
     </div>
 </header>
