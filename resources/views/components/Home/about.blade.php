@@ -31,7 +31,7 @@
                         About Me
                     </h2>
                     <p class="text-base dark:text-gray-400 mb-8">
-                        I graduated from zagazig university electrical engineering computer science department sice
+                        I graduated from zagazig university electrical engineering computer science department since
                         2021. I seek an opportunity to apply my knowledge and skills in a full-stack development role.
                         <br /> <br />
                         I have worked on various types of projects with various technologies,

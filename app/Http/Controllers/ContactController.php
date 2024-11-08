@@ -10,14 +10,14 @@ class ContactController extends Controller
 {
     public function submit(Request $request)
     {
-        $request->validate([
+        $validated = $request->validate([
             'name' => 'required',
             'email' => ['required', 'email'],
             'message' => 'required'
         ]);
 
-        // Mail::to('mohyemahmoud123@gmail.com')
-        //     ->send(new ContactMail($validated['name'], $validated['email'], $validated['message']));
+        Mail::to('mohyemahmoud123@gmail.com')
+            ->send(new ContactMail($validated['name'], $validated['email'], $validated['message']));
 
         return $request->all();
     }
